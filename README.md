@@ -19,15 +19,15 @@ Make the script executable (only needed once):
    ```
 Run it, passing a name:
 ```bash
-   ./hello.sh Alice
+   ./hello.sh Sooraj
    ```
 Or, without making it executable, run it directly with the interpreter:
 ```bash
-   bash hello.sh Alice
+   bash hello.sh Sooraj
    ```
 Example output
 ```
-Hello Alice, right now the time is 2026-07-01 14:32:10 IST (+0530)
+Hello Sooraj, right now the time is 2026-07-01 14:32:10 IST (+0530)
 ```
 The time shown uses the local timezone configured on the machine running
 the script (via the `date` command).
@@ -45,11 +45,11 @@ Ensure Python 3 is installed:
    ```
 Run the script, passing a name:
 ```bash
-   python3 hello.py Alice
+   python3 hello.py Sooraj
    ```
 Example output
 ```
-Hello Alice, right now the time is 2026-07-01 14:32:11 IST (+0530)
+Hello Sooraj, right now the time is 2026-07-01 14:32:11 IST (+0530)
 ```
 The script uses Python's `datetime.now().astimezone()` to get a
 timezone-aware timestamp based on the system's local timezone.
